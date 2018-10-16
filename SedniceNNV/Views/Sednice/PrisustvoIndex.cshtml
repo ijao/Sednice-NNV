@@ -1,0 +1,56 @@
+﻿@model PagedList.IPagedList<SedniceNNV.Models.Prisustvo>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Prisustvo za izabranu sednicu";
+}
+
+<h2>Prisustvo za izabranu sednicu</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Ime", "PrisustvoIndex", new { sortOrder = ViewBag.FirstNameSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("Prezime", "PrisustvoIndex", new { sortOrder = ViewBag.LastNameSortParm})
+        </th>
+        <th>
+            @Html.DisplayName("Prisutan")
+        </th>
+        <th>
+            @Html.DisplayName("Opravdano")
+        </th>     
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Clanovi.Ime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Clanovi.Prezime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Prisutan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Opravdano)
+        </td>
+        <td>
+            @Html.ActionLink("Promeni", "PrisustvoEdit", new { SednicaID = item.SednicaID, ClanID = item.ClanID }) 
+            
+        </td>
+    </tr>
+}
+
+</table>
+
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("PrisustvoIndex",
+    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjekatModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Clanovi">
+    <Key>
+      <PropertyRef Name="ClanID" />
+    </Key>
+    <Property Name="ClanID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ime" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Prezime" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="KorisnickoIme" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Lozinka" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Uloga" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Prilozi">
+    <Key>
+      <PropertyRef Name="SednicaID" />
+      <PropertyRef Name="RedniBrojPriloga" />
+    </Key>
+    <Property Name="SednicaID" Type="int" Nullable="false" />
+    <Property Name="RedniBrojPriloga" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NazivDokumenta" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Poslato" Type="nvarchar" MaxLength="5" />
+    <Property Name="DatumSlanja" Type="date" />
+  </EntityType>
+  <EntityType Name="Prisustvo">
+    <Key>
+      <PropertyRef Name="SednicaID" />
+      <PropertyRef Name="ClanID" />
+    </Key>
+    <Property Name="SednicaID" Type="int" Nullable="false" />
+    <Property Name="ClanID" Type="int" Nullable="false" />
+    <Property Name="Prisutan" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="Opravdano" Type="nvarchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="Sednice">
+    <Key>
+      <PropertyRef Name="SednicaID" />
+    </Key>
+    <Property Name="SednicaID" Type="int" Nullable="false" />
+    <Property Name="Datum" Type="date" Nullable="false" />
+    <Property Name="Vrsta" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Ucionica" Type="nvarchar" MaxLength="20" />
+    <Property Name="Zapisnik" Type="nvarchar(max)" />
+    <Property Name="Poziv" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK__Prilozi__Sednica__1CF15040">
+    <End Role="Sednice" Type="Self.Sednice" Multiplicity="1" />
+    <End Role="Prilozi" Type="Self.Prilozi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sednice">
+        <PropertyRef Name="SednicaID" />
+      </Principal>
+      <Dependent Role="Prilozi">
+        <PropertyRef Name="SednicaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Prisustvo__ClanI__182C9B23">
+    <End Role="Clanovi" Type="Self.Clanovi" Multiplicity="1" />
+    <End Role="Prisustvo" Type="Self.Prisustvo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clanovi">
+        <PropertyRef Name="ClanID" />
+      </Principal>
+      <Dependent Role="Prisustvo">
+        <PropertyRef Name="ClanID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Prisustvo__Sedni__173876EA">
+    <End Role="Sednice" Type="Self.Sednice" Multiplicity="1" />
+    <End Role="Prisustvo" Type="Self.Prisustvo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sednice">
+        <PropertyRef Name="SednicaID" />
+      </Principal>
+      <Dependent Role="Prisustvo">
+        <PropertyRef Name="SednicaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjekatModelStoreContainer">
+    <EntitySet Name="Clanovi" EntityType="Self.Clanovi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Prilozi" EntityType="Self.Prilozi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Prisustvo" EntityType="Self.Prisustvo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sednice" EntityType="Self.Sednice" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Prilozi__Sednica__1CF15040" Association="Self.FK__Prilozi__Sednica__1CF15040">
+      <End Role="Sednice" EntitySet="Sednice" />
+      <End Role="Prilozi" EntitySet="Prilozi" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Prisustvo__ClanI__182C9B23" Association="Self.FK__Prisustvo__ClanI__182C9B23">
+      <End Role="Clanovi" EntitySet="Clanovi" />
+      <End Role="Prisustvo" EntitySet="Prisustvo" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Prisustvo__Sedni__173876EA" Association="Self.FK__Prisustvo__Sedni__173876EA">
+      <End Role="Sednice" EntitySet="Sednice" />
+      <End Role="Prisustvo" EntitySet="Prisustvo" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

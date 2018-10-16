@@ -1,0 +1,58 @@
+﻿@model SedniceNNV.Models.Sednice
+
+@{
+    ViewBag.Title = "Detalji sednice";
+}
+
+<h2>Detalji sednice</h2>
+
+<div>
+    <h4>Sednice</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Datum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Datum.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vrsta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vrsta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ucionica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ucionica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Zapisnik)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Zapisnik)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Poziv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Poziv)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Promeni", "Edit", new { id = Model.SednicaID }) |
+    @Html.ActionLink("Povratak na spisak", "Index")
+</p>

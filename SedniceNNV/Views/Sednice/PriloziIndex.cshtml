@@ -1,0 +1,74 @@
+﻿@model IEnumerable<SedniceNNV.Models.Prilozi>
+
+@{
+    ViewBag.Title = "Spisak priloga za biranu sednicu";
+}
+
+<h2>Spisak priloga za biranu sednicu</h2>
+
+
+<p>
+@if (Session["Uloga"].ToString() == "Admin")
+{
+    @Html.ActionLink("Unesi novi prilog", "PriloziCreate")
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Redni broj sednice")
+        </th>
+        <th>
+            @Html.DisplayName("Redni broj priloga")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NazivDokumenta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Poslato)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DatumSlanja)
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sednice.SednicaID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RedniBrojPriloga)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NazivDokumenta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Poslato)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DatumSlanja)
+        </td>
+        
+        <td>
+    @if (Session["Uloga"].ToString() == "Admin")
+        {
+            
+            @Html.ActionLink("Promeni", "PriloziEdit", new { SednicaID = item.SednicaID, RedniBrojPriloga = item.RedniBrojPriloga }) <br />
+            
+            }
+
+            @Html.ActionLink("Detalji", "PriloziDetails", new { SednicaID = item.SednicaID, RedniBrojPriloga = item.RedniBrojPriloga })
+            
+        </td>
+    </tr>
+}
+
+</table>
+
+<div>
+    @Html.ActionLink("Povratak na spisak", "Index")
+</div>
+

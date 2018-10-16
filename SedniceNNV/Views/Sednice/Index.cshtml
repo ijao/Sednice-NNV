@@ -1,0 +1,89 @@
+﻿@model PagedList.IPagedList<SedniceNNV.Models.Sednice>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Spisak sednica";
+}
+
+<h2>Spisak sednica</h2>
+
+<p>
+@if (Session["Uloga"].ToString() == "Admin")
+    {
+    @Html.ActionLink("Unos nove sednice", "Create")
+    }
+</p>
+
+@using (Html.BeginForm("Index", "Clanovi", FormMethod.Get))
+{
+    <p>
+        Pretraga po zapisniku i pozivu: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Pretraga" />
+    </p>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Redni broj sednice", "Index", new { sortOrder = ViewBag.FirstNameSortParm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            @Html.DisplayName("Datum")
+        </th>
+        <th>
+            @Html.DisplayName("Vrsta")
+        </th>
+        <th>
+            @Html.DisplayName("Učionica")
+        </th>
+        <th>
+            @Html.DisplayName("Zapisnik")
+        </th>
+        <th>
+            @Html.DisplayName("Poziv")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SednicaID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Datum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vrsta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ucionica)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Zapisnik)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Poziv)
+        </td>
+        <td>
+        @if (Session["Uloga"].ToString() == "Admin")
+        {
+            @Html.ActionLink("Promeni", "Edit", new { id = item.SednicaID }) <br /> 
+            @Html.ActionLink("Detalji", "Details", new { id = item.SednicaID }) <br />
+            @Html.ActionLink("Obriši", "Delete", new { id = item.SednicaID }) <br />
+            @Html.ActionLink("Prisustvo", "PrisustvoIndex", new { id = item.SednicaID }) <br />
+        }
+            @Html.ActionLink("Prilozi", "PriloziIndex", new { id = item.SednicaID })
+
+        </td>
+    </tr>
+}
+
+</table>
+
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index",
+    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))

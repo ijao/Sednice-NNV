@@ -1,0 +1,437 @@
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\ApplicationInsights.config
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\csc.exe
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\vbc.exe
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\SedniceNNV.dll.config
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Antlr3.Runtime.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.AI.Web.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.ApplicationInsights.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Helpers.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Optimization.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.WebPages.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\WebGrease.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.AI.Web.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.ApplicationInsights.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Helpers.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Optimization.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.WebPages.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\obj\Debug\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\obj\Debug\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\EntityFramework.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\EntityFramework.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\ApplicationInsights.config
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\csc.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\vbc.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\SedniceNNV.dll.config
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Antlr3.Runtime.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\EntityFramework.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.AI.Web.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.ApplicationInsights.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.Helpers.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.Optimization.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.WebPages.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\WebGrease.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\EntityFramework.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.AI.Web.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.ApplicationInsights.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.Helpers.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.Optimization.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.WebPages.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\bin\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\obj\Debug\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy\SedniceNNV\obj\Debug\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\ApplicationInsights.config
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\csc.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\vbc.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\SedniceNNV.dll.config
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Antlr3.Runtime.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\EntityFramework.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.AI.Web.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.ApplicationInsights.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.Helpers.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.Optimization.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.WebPages.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\WebGrease.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\EntityFramework.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.AI.Web.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.ApplicationInsights.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.Helpers.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.Optimization.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.WebPages.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\obj\Debug\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\obj\Debug\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\PagedList.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\PagedList.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\PagedList.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi\SedniceNNV\bin\PagedList.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\ApplicationInsights.config
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\csc.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\vbc.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\SedniceNNV.dll.config
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Antlr3.Runtime.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\EntityFramework.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.AI.Web.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.ApplicationInsights.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\PagedList.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\PagedList.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.Helpers.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.Optimization.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.WebPages.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\WebGrease.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\EntityFramework.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.AI.Web.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.ApplicationInsights.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\PagedList.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\PagedList.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.Helpers.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.Optimization.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.WebPages.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\bin\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\obj\Debug\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\obj\Debug\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV - Copy - Clanovi - Sednice-Prisustvo-Clanovi SP\SedniceNNV\obj\Debug\SedniceNNV.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\ApplicationInsights.config
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\csc.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\vbc.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\SedniceNNV.dll.config
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Antlr3.Runtime.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\EntityFramework.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.AI.Web.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.ApplicationInsights.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\PagedList.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\PagedList.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.Helpers.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.Optimization.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.WebPages.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\WebGrease.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\EntityFramework.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.AI.Web.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.ApplicationInsights.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\PagedList.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\PagedList.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.Helpers.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.Optimization.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.WebPages.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\bin\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\obj\Debug\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV - Copy - sve osim priloga\SedniceNNV\obj\Debug\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\PagedList.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\PagedList.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Net.Http.Formatting.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Http.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Http.WebHost.dll
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\PagedList.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\PagedList.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Net.Http.Formatting.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Http.xml
+C:\Users\PC\Desktop\SedniceNNV\SedniceNNV\bin\System.Web.Http.WebHost.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\ApplicationInsights.config
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\csc.exe
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\vbc.exe
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\SedniceNNV.dll.config
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Antlr3.Runtime.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\EntityFramework.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.AI.Web.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.ApplicationInsights.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\PagedList.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\PagedList.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Net.Http.Formatting.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Helpers.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Http.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Http.WebHost.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Optimization.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.WebPages.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\WebGrease.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\EntityFramework.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.AI.Web.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.ApplicationInsights.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\PagedList.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\PagedList.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Net.Http.Formatting.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Http.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Http.WebHost.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Helpers.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Optimization.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.WebPages.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\bin\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\obj\Debug\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\obj\Debug\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV sa APIjem\SedniceNNV\obj\Debug\SedniceNNV.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\ApplicationInsights.config
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\csc.exe
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\vbc.exe
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\SedniceNNV.dll.config
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Antlr3.Runtime.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\EntityFramework.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.AI.Web.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.ApplicationInsights.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\PagedList.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\PagedList.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Net.Http.Formatting.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Helpers.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Http.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Http.WebHost.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Mvc.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Optimization.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.WebPages.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\WebGrease.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\EntityFramework.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.AI.Web.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.ApplicationInsights.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\PagedList.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\PagedList.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Net.Http.Formatting.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Http.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Http.WebHost.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Helpers.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Mvc.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Optimization.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.WebPages.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\bin\Newtonsoft.Json.xml
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\obj\Debug\SedniceNNV.dll
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\obj\Debug\SedniceNNV.pdb
+C:\Users\PC\Desktop\SedniceNNV sa APIjem fali angularjs\SedniceNNV\obj\Debug\SedniceNNV.csprojResolveAssemblyReference.cache

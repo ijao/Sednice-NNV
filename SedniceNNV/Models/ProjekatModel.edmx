@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ProjekatModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Clanovi">
+          <Key>
+            <PropertyRef Name="ClanID" />
+          </Key>
+          <Property Name="ClanID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Ime" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Prezime" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Status" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="KorisnickoIme" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Lozinka" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Uloga" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Prilozi">
+          <Key>
+            <PropertyRef Name="SednicaID" />
+            <PropertyRef Name="RedniBrojPriloga" />
+          </Key>
+          <Property Name="SednicaID" Type="int" Nullable="false" />
+          <Property Name="RedniBrojPriloga" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="NazivDokumenta" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Poslato" Type="nvarchar" MaxLength="5" />
+          <Property Name="DatumSlanja" Type="date" />
+        </EntityType>
+        <EntityType Name="Prisustvo">
+          <Key>
+            <PropertyRef Name="SednicaID" />
+            <PropertyRef Name="ClanID" />
+          </Key>
+          <Property Name="SednicaID" Type="int" Nullable="false" />
+          <Property Name="ClanID" Type="int" Nullable="false" />
+          <Property Name="Prisutan" Type="nvarchar" MaxLength="5" Nullable="false" />
+          <Property Name="Opravdano" Type="nvarchar" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="Sednice">
+          <Key>
+            <PropertyRef Name="SednicaID" />
+          </Key>
+          <Property Name="SednicaID" Type="int" Nullable="false" />
+          <Property Name="Datum" Type="date" Nullable="false" />
+          <Property Name="Vrsta" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="Ucionica" Type="nvarchar" MaxLength="20" />
+          <Property Name="Zapisnik" Type="nvarchar(max)" />
+          <Property Name="Poziv" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK__Prilozi__Sednica__1CF15040">
+          <End Role="Sednice" Type="Self.Sednice" Multiplicity="1" />
+          <End Role="Prilozi" Type="Self.Prilozi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sednice">
+              <PropertyRef Name="SednicaID" />
+            </Principal>
+            <Dependent Role="Prilozi">
+              <PropertyRef Name="SednicaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Prisustvo__ClanI__182C9B23">
+          <End Role="Clanovi" Type="Self.Clanovi" Multiplicity="1" />
+          <End Role="Prisustvo" Type="Self.Prisustvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clanovi">
+              <PropertyRef Name="ClanID" />
+            </Principal>
+            <Dependent Role="Prisustvo">
+              <PropertyRef Name="ClanID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Prisustvo__Sedni__173876EA">
+          <End Role="Sednice" Type="Self.Sednice" Multiplicity="1" />
+          <End Role="Prisustvo" Type="Self.Prisustvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sednice">
+              <PropertyRef Name="SednicaID" />
+            </Principal>
+            <Dependent Role="Prisustvo">
+              <PropertyRef Name="SednicaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProjekatModelStoreContainer">
+          <EntitySet Name="Clanovi" EntityType="Self.Clanovi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Prilozi" EntityType="Self.Prilozi" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Prisustvo" EntityType="Self.Prisustvo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sednice" EntityType="Self.Sednice" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Prilozi__Sednica__1CF15040" Association="Self.FK__Prilozi__Sednica__1CF15040">
+            <End Role="Sednice" EntitySet="Sednice" />
+            <End Role="Prilozi" EntitySet="Prilozi" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Prisustvo__ClanI__182C9B23" Association="Self.FK__Prisustvo__ClanI__182C9B23">
+            <End Role="Clanovi" EntitySet="Clanovi" />
+            <End Role="Prisustvo" EntitySet="Prisustvo" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Prisustvo__Sedni__173876EA" Association="Self.FK__Prisustvo__Sedni__173876EA">
+            <End Role="Sednice" EntitySet="Sednice" />
+            <End Role="Prisustvo" EntitySet="Prisustvo" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ProjekatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Clanovi">
+          <Key>
+            <PropertyRef Name="ClanID" />
+          </Key>
+          <Property Name="ClanID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Ime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Prezime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Status" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="KorisnickoIme" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Lozinka" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Uloga" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Prisustvo" Relationship="Self.FK__Prisustvo__ClanI__182C9B23" FromRole="Clanovi" ToRole="Prisustvo" />
+        </EntityType>
+        <EntityType Name="Prilozi">
+          <Key>
+            <PropertyRef Name="SednicaID" />
+            <PropertyRef Name="RedniBrojPriloga" />
+          </Key>
+          <Property Name="SednicaID" Type="Int32" Nullable="false" />
+          <Property Name="RedniBrojPriloga" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NazivDokumenta" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Poslato" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+          <Property Name="DatumSlanja" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="Sednice" Relationship="Self.FK__Prilozi__Sednica__1CF15040" FromRole="Prilozi" ToRole="Sednice" />
+        </EntityType>
+        <EntityType Name="Prisustvo">
+          <Key>
+            <PropertyRef Name="SednicaID" />
+            <PropertyRef Name="ClanID" />
+          </Key>
+          <Property Name="SednicaID" Type="Int32" Nullable="false" />
+          <Property Name="ClanID" Type="Int32" Nullable="false" />
+          <Property Name="Prisutan" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Opravdano" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Clanovi" Relationship="Self.FK__Prisustvo__ClanI__182C9B23" FromRole="Prisustvo" ToRole="Clanovi" />
+          <NavigationProperty Name="Sednice" Relationship="Self.FK__Prisustvo__Sedni__173876EA" FromRole="Prisustvo" ToRole="Sednice" />
+        </EntityType>
+        <EntityType Name="Sednice">
+          <Key>
+            <PropertyRef Name="SednicaID" />
+          </Key>
+          <Property Name="SednicaID" Type="Int32" Nullable="false" />
+          <Property Name="Datum" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Vrsta" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Ucionica" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Zapisnik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Poziv" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Prilozi" Relationship="Self.FK__Prilozi__Sednica__1CF15040" FromRole="Sednice" ToRole="Prilozi" />
+          <NavigationProperty Name="Prisustvo" Relationship="Self.FK__Prisustvo__Sedni__173876EA" FromRole="Sednice" ToRole="Prisustvo" />
+        </EntityType>
+        <Association Name="FK__Prisustvo__ClanI__182C9B23">
+          <End Role="Clanovi" Type="Self.Clanovi" Multiplicity="1" />
+          <End Role="Prisustvo" Type="Self.Prisustvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Clanovi">
+              <PropertyRef Name="ClanID" />
+            </Principal>
+            <Dependent Role="Prisustvo">
+              <PropertyRef Name="ClanID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Prilozi__Sednica__1CF15040">
+          <End Role="Sednice" Type="Self.Sednice" Multiplicity="1" />
+          <End Role="Prilozi" Type="Self.Prilozi" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sednice">
+              <PropertyRef Name="SednicaID" />
+            </Principal>
+            <Dependent Role="Prilozi">
+              <PropertyRef Name="SednicaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Prisustvo__Sedni__173876EA">
+          <End Role="Sednice" Type="Self.Sednice" Multiplicity="1" />
+          <End Role="Prisustvo" Type="Self.Prisustvo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sednice">
+              <PropertyRef Name="SednicaID" />
+            </Principal>
+            <Dependent Role="Prisustvo">
+              <PropertyRef Name="SednicaID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProjekatEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Clanovi" EntityType="Self.Clanovi" />
+          <EntitySet Name="Prilozi" EntityType="Self.Prilozi" />
+          <EntitySet Name="Prisustvo" EntityType="Self.Prisustvo" />
+          <EntitySet Name="Sednice" EntityType="Self.Sednice" />
+          <AssociationSet Name="FK__Prisustvo__ClanI__182C9B23" Association="Self.FK__Prisustvo__ClanI__182C9B23">
+            <End Role="Clanovi" EntitySet="Clanovi" />
+            <End Role="Prisustvo" EntitySet="Prisustvo" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Prilozi__Sednica__1CF15040" Association="Self.FK__Prilozi__Sednica__1CF15040">
+            <End Role="Sednice" EntitySet="Sednice" />
+            <End Role="Prilozi" EntitySet="Prilozi" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Prisustvo__Sedni__173876EA" Association="Self.FK__Prisustvo__Sedni__173876EA">
+            <End Role="Sednice" EntitySet="Sednice" />
+            <End Role="Prisustvo" EntitySet="Prisustvo" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ProjekatModelStoreContainer" CdmEntityContainer="ProjekatEntities">
+          <EntitySetMapping Name="Clanovi">
+            <EntityTypeMapping TypeName="ProjekatModel.Clanovi">
+              <MappingFragment StoreEntitySet="Clanovi">
+                <ScalarProperty Name="ClanID" ColumnName="ClanID" />
+                <ScalarProperty Name="Ime" ColumnName="Ime" />
+                <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="KorisnickoIme" ColumnName="KorisnickoIme" />
+                <ScalarProperty Name="Lozinka" ColumnName="Lozinka" />
+                <ScalarProperty Name="Uloga" ColumnName="Uloga" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Prilozi">
+            <EntityTypeMapping TypeName="ProjekatModel.Prilozi">
+              <MappingFragment StoreEntitySet="Prilozi">
+                <ScalarProperty Name="SednicaID" ColumnName="SednicaID" />
+                <ScalarProperty Name="RedniBrojPriloga" ColumnName="RedniBrojPriloga" />
+                <ScalarProperty Name="NazivDokumenta" ColumnName="NazivDokumenta" />
+                <ScalarProperty Name="Poslato" ColumnName="Poslato" />
+                <ScalarProperty Name="DatumSlanja" ColumnName="DatumSlanja" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Prisustvo">
+            <EntityTypeMapping TypeName="ProjekatModel.Prisustvo">
+              <MappingFragment StoreEntitySet="Prisustvo">
+                <ScalarProperty Name="SednicaID" ColumnName="SednicaID" />
+                <ScalarProperty Name="ClanID" ColumnName="ClanID" />
+                <ScalarProperty Name="Prisutan" ColumnName="Prisutan" />
+                <ScalarProperty Name="Opravdano" ColumnName="Opravdano" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sednice">
+            <EntityTypeMapping TypeName="ProjekatModel.Sednice">
+              <MappingFragment StoreEntitySet="Sednice">
+                <ScalarProperty Name="SednicaID" ColumnName="SednicaID" />
+                <ScalarProperty Name="Datum" ColumnName="Datum" />
+                <ScalarProperty Name="Vrsta" ColumnName="Vrsta" />
+                <ScalarProperty Name="Ucionica" ColumnName="Ucionica" />
+                <ScalarProperty Name="Zapisnik" ColumnName="Zapisnik" />
+                <ScalarProperty Name="Poziv" ColumnName="Poziv" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

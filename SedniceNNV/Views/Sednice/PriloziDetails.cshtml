@@ -1,0 +1,38 @@
+﻿@model SedniceNNV.Models.Prilozi
+
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NazivDokumenta)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NazivDokumenta)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Poslato)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Poslato)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DatumSlanja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DatumSlanja)
+        </dd>
+
+        
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Promeni", "PriloziEdit", new { SednicaID = Model.SednicaID, RedniBrojPriloga = Model.RedniBrojPriloga }) <br />
+    @Html.ActionLink("Povratak na spisak", "Index")
+</p>
