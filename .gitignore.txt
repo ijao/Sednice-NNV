@@ -1,3 +1,3 @@
-Proba/bin/
-Proba/obj/
+SedniceNNV/bin/
+SedniceNNV/obj/
 .vs/
