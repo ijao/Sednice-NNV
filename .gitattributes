@@ -1,2 +1,3 @@
 SedniceNNV/Scripts/app/* linguist-vendored
-
+packages/AngularJS.Core.1.7.4/* linguist-vendored
+packages/AngularJS.Route.1.7.4/* linguist-vendored
